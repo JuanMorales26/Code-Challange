@@ -7,7 +7,6 @@
     "lib": "lib",
     "test": "jest --forceExit"
   },
-
   "scripts": {
     "test": "jest --forceExit",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
@@ -25,7 +24,7 @@
   },
   "homepage": "https://github.com/JuanMorales26/Code-Challange#readme",
   "devDependencies": {
-    "jest": "^28.1.0",
+    "jest": "^26.0.0",
     "supertest": "^6.2.3"
   },
   "dependencies": {
