@@ -1,0 +1,34 @@
+{
+  "name": "code-challange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "jest --forceExit"
+  },
+
+  "scripts": {
+    "test": "jest --forceExit",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node ./lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMorales26/Code-Challange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMorales26/Code-Challange/issues"
+  },
+  "homepage": "https://github.com/JuanMorales26/Code-Challange#readme",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
